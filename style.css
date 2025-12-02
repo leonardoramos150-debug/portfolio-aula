@@ -1,19 +1,44 @@
+/* --- Configurações Gerais (Dark Mode) --- */
 body {
-    background-color: #222;
-    color: #fff;
+    background-color: #222; /* Fundo Escuro */
+    color: #fff;            /* Letra Branca */
     font-family: sans-serif;
     text-align: center;
+    margin: 0;              /* Remove margens brancas laterais */
+    padding: 0;
 }
 
+/* --- Cabeçalho Roxo --- */
 header {
-    background-color: #6200ea; /* Roxo */
-    padding: 20px;
-    margin-bottom: 20px;
+    background-color: #6200ea;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* Sombra para destaque */
 }
 
-/* Opcional: Um estilo simples para o rodapé */
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* --- Área Principal --- */
+main {
+    padding: 20px;
+    min-height: 40vh; /* Garante altura mínima para empurrar o rodapé */
+}
+
+/* --- Rodapé Estilo "Copyright" (Igual sua imagem) --- */
 footer {
-    margin-top: 50px;
-    font-size: 0.8em;
-    color: #aaa;
+    background-color: #333;  /* Cinza quase preto */
+    color: #ccc;             /* Texto cinza claro */
+    text-align: center;
+    padding: 25px 0;         /* Altura da barra */
+    margin-top: 60px;
+    width: 100%;
+    font-size: 0.9rem;       /* Fonte levemente menor */
+    border-top: 1px solid #444; /* Linha sutil no topo para acabamento */
+}
+
+footer p {
+    margin: 0; /* Remove espaços extras para centralizar perfeito */
 }
